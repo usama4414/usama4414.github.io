@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 50px;
+    background-color: #E0E0E0;
+    color: #1D3461;
+    font-family: 'Fira Code', monospace;
+}

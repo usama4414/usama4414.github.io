@@ -1,0 +1,70 @@
+#root {
+    width: 600px;
+    background-color: antiquewhite;
+    margin-top:100px;
+}
+
+section {
+    border: 3px black solid;
+    margin: 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+section div{
+    display: flex;
+    align-items: center;
+}
+
+section div p, section p {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    width: 54px;
+    height: 52px;
+    color: black;
+    background-color: white;
+    border: 5px black solid;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+button:active {
+    background-color: black;
+    color: black;
+    border: 3px black solid;
+}
+
+#timer {
+    display: block;
+}
+
+#start_stop, #reset {
+    margin: 5px;
+    line-height: 2rem;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    h2 {
+        margin: 10px 0 auto;
+    }
+    
+    #timer-label {
+        margin: 5px 0 auto;
+    }
+    
+    #time-left {
+        margin: 0 auto;
+    }
+}
